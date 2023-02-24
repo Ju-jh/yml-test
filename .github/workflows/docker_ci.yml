@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag test:$(date +%s)
+      run: docker build -f Dockerfile -t express .
         
         # 여기 까지는 여느 빌드와 다름 없다.
       
