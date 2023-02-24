@@ -40,4 +40,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ymltest /우리가 만들 docker repo 이름
+          tags: ymltest 
