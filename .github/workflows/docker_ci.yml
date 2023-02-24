@@ -40,4 +40,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ymltest 
+          tags: ${{ secrets.DOCKER_USERNAME }}
