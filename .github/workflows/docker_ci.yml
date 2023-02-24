@@ -37,4 +37,4 @@ jobs:
                   context: .
                   file: ./Dockerfile
                   push: true
-                  tags: ${{secrets.DOCKER_USERNAME}}
+                  tags: ${{secrets.DOCKER_USERNAME}}/우리가 만들 docker repo 이름
